@@ -1,10 +1,4 @@
-![Tejas Vanjari — animated fish-tracking banner](./vision-banner.gif)
-
-<p align="center">
-  <strong>Research Assistant · Computer Vision TA · AI Master's Student</strong><br>
-  Northeastern University · Boston, MA<br>
-  <strong>Open to Spring 2027 co-ops in applied AI and ML</strong>
-</p>
+![Tejas Vanjari, Research Assistant and Computer Vision TA at Northeastern, open to Spring 2027 co-ops. Animated tracking view of river herring being detected, tracked, and counted.](./vision-banner.gif)
 
 <div align="center">
 
@@ -16,33 +10,41 @@
 
 ## Hey, I'm Tejas 👋
 
-I build computer vision systems and like finding the frames where they break: fish overlapping underwater, lane lines washed out by glare. I'm also a TA for **EECE/CS 5639**, where I help students debug their own vision projects.
+I build computer vision systems and like finding the frames where they break: fish swimming on top of each other, lane lines washed out by glare.
 
-## 🐟 Research · Northeastern University × MIT Sea Grant
+| 🔬 Researching | 🧑‍🏫 Teaching | 🎯 Looking for |
+| :-- | :-- | :-- |
+| Counting river herring in crowded underwater video with Northeastern and MIT Sea Grant | TA for **EECE/CS 5639**, helping students debug their own vision projects | A **Spring 2027 co-op** in applied AI or machine learning |
+
+## 🐟 Research: counting river herring
 
 **Can we count river herring reliably when they swim on top of each other?**
 
-I started by preparing fish crops and testing a Vision Transformer classifier. Now I'm building a ViT detector for full video frames, so I can compare it with YOLO on the same footage and see how the choice of detector changes the final count.
+I started by preparing fish crops and testing a Vision Transformer classifier. Now I'm building a ViT detector for full video frames, so I can compare it with the YOLO baseline on the same footage and see how the choice of detector changes the final count.
 
-![Counting baseline: underwater video goes through YOLO detection and BoT-SORT tracking to produce a herring count](./vision-pipeline.gif)
+![The counting pipeline: underwater video, then YOLO detection, then BoT-SORT tracking, then a count of herring that cross the line](./vision-pipeline.gif)
 
-## 🚗 Built · Lane & Object Detection
+## 🚗 Built: Lane & Object Detection
 
-[![Animated lane and object detection sketch](./lane-object-detection.gif)](https://github.com/vanjaritejas/lane-and-object-detection)
+[![Animated road view with detected lanes, car detections, and alerts ranked by priority](./lane-object-detection.gif)](https://github.com/vanjaritejas/lane-and-object-detection)
 
-A road-video prototype that combines **OpenCV lane detection**, **YOLO object detection**, and **prioritized alerts**. I added a fallback for frames where glare makes the lane estimate unreliable.
+A road-video prototype that combines **OpenCV lane detection**, **YOLO object detection**, and **prioritized alerts**. I also added a fallback for frames where glare makes the lane estimate unreliable.
 
-[Explore the code →](https://github.com/vanjaritejas/lane-and-object-detection)
+[View the code on GitHub](https://github.com/vanjaritejas/lane-and-object-detection)
 
-## 🧩 In Progress · Visual Question Answering
+## 🧩 In progress: Visual Question Answering
 
-Comparing a **ViT + DistilBERT** model with a question-only baseline on VQA v2, to see how much the image actually helps the answer.
+Comparing a **ViT + DistilBERT** model with a question-only baseline on VQA v2, to measure how much the image actually helps the answer.
 
-[See the repo →](https://github.com/vanjaritejas/Visual-Question-Answering-Bot)
+[View the repo](https://github.com/vanjaritejas/Visual-Question-Answering-Bot)
 
-## 🛠️ Tools I Use
+## 🛠️ Tools I use
 
-`Python` · `PyTorch` · `OpenCV` · `YOLO` · `Hugging Face` · `Vision Transformers`
+![Python](https://img.shields.io/badge/Python-0a191b?style=flat-square&logo=python&logoColor=8ef0c9)
+![PyTorch](https://img.shields.io/badge/PyTorch-0a191b?style=flat-square&logo=pytorch&logoColor=8ef0c9)
+![OpenCV](https://img.shields.io/badge/OpenCV-0a191b?style=flat-square&logo=opencv&logoColor=8ef0c9)
+![YOLO](https://img.shields.io/badge/YOLO-0a191b?style=flat-square)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-0a191b?style=flat-square&logo=huggingface&logoColor=8ef0c9)
 
 ---
 
