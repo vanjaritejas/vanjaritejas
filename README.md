@@ -24,6 +24,8 @@ I build computer vision systems and like figuring out where they break, from ove
 
 ## 🚗 Built · Lane & Object Detection
 
+[![Animated lane and object detection sketch](./lane-object-detection.gif)](https://github.com/vanjaritejas/lane-and-object-detection)
+
 I built a road-video prototype that combines **OpenCV lane detection**, **YOLO object detection**, and **prioritized alerts**. I added a fallback for frames where glare made the lane estimate unreliable.
 
 [Explore the code →](https://github.com/vanjaritejas/lane-and-object-detection)
