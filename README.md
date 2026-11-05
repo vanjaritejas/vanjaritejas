@@ -1,36 +1,25 @@
-![Tejas Vanjari — animated computer vision sketch with three tracked fish](./vision-banner.gif)
+![Tejas Vanjari — animated fish-tracking banner](./vision-banner.gif)
 
-**AI grad student at Northeastern · Computer Vision TA · Research Assistant**  
-📍 Boston, MA · Open to Spring 2027 applied AI and ML co-ops
-
-[LinkedIn](https://www.linkedin.com/in/tejas-vanjari-p/) · [GitHub](https://github.com/vanjaritejas)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0yIDhoNHYxNEgyek00IDJhMiAyIDAgMSAwIDAgNCAyIDIgMCAwIDAgMC00ek05IDhoNHYyYzEtMiAzLTIgNC0yIDQgMCA1IDIgNSA2djhoLTR2LThjMC0yLTEtMy0yLTNzLTMgMS0zIDN2OEg5eiIvPjwvc3ZnPg%3D%3D)](https://www.linkedin.com/in/tejas-vanjari-p/)
+[![Outlook](https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHJlY3QgeD0iMiIgeT0iNSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjE0IiByeD0iMiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIi8%2BPHBhdGggZD0ibTMgNyA5IDcgOS03IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiLz48L3N2Zz4%3D)](mailto:YOUR_PUBLIC_EMAIL)
+[![GitHub](https://img.shields.io/badge/GitHub-24292F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/vanjaritejas)
 
 ## Hey, I'm Tejas 👋
 
-My projects usually start with a video and a question. Can I count fish when they swim past each other? Can a road-video prototype tell when it has lost sight of the lane? I like building the first version, finding the frames where it breaks, and figuring out what to try next.
+I'm an AI master's student and Computer Vision TA at Northeastern. I like building vision systems and finding the frames where they break.
 
-At Northeastern, I study AI and help students with assignments and projects as a TA for **EECE/CS 5639 Computer Vision**. I'm also curious about NLP and how to tell when a model's answer holds up.
+📍 Boston, MA · **Open to Spring 2027 applied AI and ML co-ops**
 
-## 🐟 What I'm working on
+### 🐟 Research · Northeastern University × MIT Sea Grant
 
-**Research Assistant · Northeastern University × MIT Sea Grant**
+As a research assistant, I work on counting river herring in crowded underwater video. I prepared fish crops and tested a Vision Transformer classifier. Now I'm developing a ViT detector to compare with the YOLO + BoT-SORT counting baseline.
 
-I'm working on river herring detection and counting from underwater video. When fish overlap, keeping track of individual fish across frames gets harder.
+### 🚗 Project · Lane & Object Detection
 
-- **Baseline** · I worked with a pipeline that uses YOLO to detect fish and BoT-SORT to track them across frames.
-- **What I tried** · I prepared fish image crops and ran a small Vision Transformer experiment to classify them as herring or non-herring.
-- **What I'm building next** · A ViT detector that locates fish in full frames. I want to compare it with YOLO on the same footage and see how each detector affects the final count.
+I built a road-video prototype that combines OpenCV lane detection, YOLO object detection, and prioritized alerts. I added a fallback for when glare makes lane estimates unreliable.
 
-## 🚗 Something I built
+[Explore the code →](https://github.com/vanjaritejas/lane-and-object-detection)
 
-**Lane and Object Detection for Driver Assistance**
+`Python` · `PyTorch` · `OpenCV` · `YOLO` · `Hugging Face`
 
-I built a Python prototype that estimates lane boundaries with OpenCV, detects objects with YOLO, and displays a prioritized alert. The most interesting part was debugging glare. It sometimes washed out the lane markings, so I added fallback behavior for frames where the lane estimate was unreliable.
-
-[Explore the project](https://github.com/vanjaritejas/lane-and-object-detection)
-
-## 🧰 Tools I reach for
-
-`Python` · `PyTorch` · `OpenCV` · `YOLO` · `Hugging Face Transformers` · `Linux`
-
-🏃 Away from my laptop, I recently ran a 5K in Cambridge. Next goal is a half marathon.
+🏃 Away from my laptop, my next running goal is a half marathon.
